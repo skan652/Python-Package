@@ -1,7 +1,6 @@
 [project]
-name = "package-creation-tutorial"
-version = "0.1.0"
-description = ""
+name = "skander_package_tutorial"
+version = "0.0.1"
 authors = [
     {name = "skan652",email = "skander.afi@dauphine.tn"}
 ]
@@ -17,7 +16,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "package_creation_tutorial", from = "src"}]
+packages = [{include = "skander_package_tutorial", from = "src"}]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

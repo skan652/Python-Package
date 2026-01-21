@@ -30,6 +30,3 @@ tring.
  """
  return ' '.join(word.capitalize() for word in s.split())
 
-def test_capitalize_words_failing(self):
- """Test the capitalize_words function."""
- self.assertEqual(capitalize_words("summer"), "summer")
