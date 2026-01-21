@@ -19,6 +19,7 @@ def count_vowels(s: str) -> int:
  """
  vowels: str = 'aeiouAEIOU'
  return sum(1 for char in s if char in vowels)
+
 def capitalize_words(s: str) -> str:
  """
  Capitalize the first letter of each word in the given s
